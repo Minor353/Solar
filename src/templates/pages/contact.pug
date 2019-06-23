@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Solar || Контакты
+  body
+    .wrapper
+      include ../includes/header.pug 
+      section.contact-page
+        .contact-page_wrap
+          .contact-page_content
+            h4.contact-page_content-title Свяжитесь с нами
+            h5.contact-page_content-subtitle Контакты
+            .contact-page_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+            ul.contact-page_contact
+              li.contact-page_contact-item
+                .contact-page_item-img
+                  img(src="#", alt="contact")
+                .contact-page_item-content
+                  div Позвоните нам
+                  a(href="tel:+") +380 (50) 123 45 67
+              li.contact-page_contact-item
+                .contact-page_item-img
+                  img(src="#", alt="contact")
+                .contact-page_item-content
+                  div Напишите нам
+                  a(href="mailto:") example@mail.com
+              li.contact-page_contact-item
+                .contact-page_item-img
+                  img(src="#", alt="contact")
+                .contact-page_item-content
+                  div г. Днепр ул. Карла Маркса 1 
+          .contact-page_img
+            img(src="#", alt="contact")
+      section.contact-form
+        .contact-form_wrap
+          .contact-form_map
+            #map
+          .contact-form_form
+            form(action="#", method="post")
+              h4.contact-form_form-title Напишите нам
+              h5.contact-form_form-subtitle Форма
+              input(type="text")
+              input(type="text")
+              textarea(name="#")
+              button(type="submit") Отправить
+      include ../includes/footer.pug 

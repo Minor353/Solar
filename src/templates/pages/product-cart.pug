@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Solar || Продукт
+  body 
+    .wrapper
+      include ../includes/header.pug  
+      section.product
+        .product_wrap
+          a(href="#").product_link-prev Назад в каталог
+          .product_card
+            .product_card-list
+              .product_card-list-img
+                img(src="#", alt="product")
+              .product_card-list-content
+                .product_content-price 2 658 грн
+                .product_content-title Название товара
+                .product_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                .product_card-btn
+                  a(href="#") Оставить заявку
+                  p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+            ul.product_card-info
+              li.product_info-item
+                div Производитель
+                div
+                div Master Wood
+              li.product_info-item
+                div Страна производитель
+                div
+                div Украина
+              li.product_info-item
+                div Материал
+                div
+                div Отсутствует
+              li.product_info-item
+                div Размер
+                div
+                div 2х0,77х0,42 м
+      section.seo-text
+        .seo-text_wrap
+          .seo-text_title Заголовок SEO-текста
+          .seo-text_content Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+          .seo-text_btn читать
+      include ../includes/footer.pug 

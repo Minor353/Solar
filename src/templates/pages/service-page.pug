@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Solar || Страница услуги
+  body
+    .wrapper
+      .main-bg
+        include ../includes/header.pug 
+        section.service-page-main
+          .service-page-main_wrap
+            .service-page-main_content
+              .service-page-main_content-title Строительство гелиосистем
+              .service-page-main_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века
+              form(action="#", method="post").service-page-main_content-form
+                input(type="text").service-page-main_form-input
+                button(type="submit") оставить заявку
+            .service-page-main_img
+              img(src="#", alt="service")
+      section.advantages
+        .advantages_wrap
+          .advantages_content
+              h4.advantages_content-title МЫ ПРЕДЛАГАЕМ РАЗНЫЕ УСЛУГИ
+              h5.advantages_content-subtitle Преимущество гелиосистем
+              .advantages_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+          ul.advantages_list
+              li.advantages_list-item
+                  .advantages_item-img
+                      img(src="#", alt="icon")
+                  .advantages_item-wrap
+                      .advantages_item-title Преимущество
+                      .advantages_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+              li.advantages_list-item
+                  .advantages_item-img
+                      img(src="#", alt="icon")
+                  .advantages_item-wrap
+                      .advantages_item-title Преимущество
+                      .advantages_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+              li.advantages_list-item
+                  .advantages_item-img
+                      img(src="#", alt="icon")
+                  .advantages_item-wrap
+                      .advantages_item-title Преимущество
+                      .advantages_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+              li.advantages_list-item
+                  .advantages_item-img
+                      img(src="#", alt="icon")
+                  .advantages_item-wrap
+                      .advantages_item-title Преимущество
+                      .advantages_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне           
+      section.article
+        .article_wrap
+          .article_img
+            img(src="#", alt="article")
+          .article_content
+            .article_content-title Энергия солнца для обогащения мира
+            .article_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах...
+            a(href="#").article_content-link больше
+      section.service-catalog
+        h4.service-catalog_title наша продукция
+        h5.service-catalog_subtitle Какое оборудование используется
+        include ../includes/_catalog-list.pug 
+      section.how-works
+        .how-works_wrap
+          h4.how-works_title процесс работы
+          h5.how-works_subtitle Этапы процесса установки
+          ul.how-works_list
+            li.how-works_list-item
+                .how-works_item-title просчёт
+                .how-works_item-decor
+                .how-works_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+            li.how-works_list-item
+                .how-works_item-title Установка
+                .how-works_item-decor
+                .how-works_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+            li.how-works_list-item
+                .how-works_item-title Введение в эксплуатацию
+                .how-works_item-decor
+                .how-works_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+            li.how-works_list-item
+                .how-works_item-title Контроль
+                .how-works_item-decor
+                .how-works_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне  
+      include ../includes/_prodject-list.pug  
+      include ../includes/_consultation.pug   
+      include ../includes/footer.pug

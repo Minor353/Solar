@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Solar || Статья
+  body
+    .wrapper
+      include ../includes/header.pug
+      section.blog-page
+        .blog-page_wrap
+          .blog-page_date 31 декабря 2018
+          .blog-page_name Название статьи
+          .blog-page_foto
+            img(src="#", alt="blog")
+          .blog-page_text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+          .service-card_call
+            .service-card_call-baner
+            .service-card_call-btn связаться
+          .blog-page_form
+            form(action="#", method="post")
+              h4.blog-page_form-title Напишите нам
+              h5.blog-page_form-subtitle Форма
+              input(type="text")
+              input(type="text")
+              textarea(name="")
+              button(type="submit") Отправить
+      include ../includes/footer.pug 
