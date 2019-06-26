@@ -2,12 +2,14 @@ footer.footer
   .footer_wrap
     .footer_row-first
       .footer_logo
-        img(src="#", alt="logo")
+        include ../svg/logo.pug 
       .footer_row-first-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
       .footer_msg
         .footer_msg-title Напишите нам в мессенджере
-        a(href="#") telegram
-        a(href="#") viber
+        a(href="#").footer_msg-link
+          include ../svg/telegram.pug 
+        a(href="#").footer_msg-link
+          include ../svg/viber.pug 
     .footer_row-second
       ul.footer_nav
         li.footer_nav-title Меню
@@ -25,21 +27,21 @@ footer.footer
       ul.footer_contact
         li.footer_contact-title Контакты
         li.footer_contact-item
-          a(href="tel:+") +380(50) 123 45 67
+          a(href="tel:+").footer_contact-link +380(50) 123 45 67
         li.footer_contact-item
-          a(href="mailto:") example@mail.com
+          a(href="mailto:").footer_contact-link example@mail.com
         li.footer_contact-item
-          div г. Днепр, ул. Карла Маркса 1
+          div.footer_contact-link г. Днепр, ул. Карла Маркса 1
       ul.footer_social
         li.footer_social-title Социальные сети
         li.footer_social-item
           a(href="#").footer_social-item-link 
-            img(src="#", alt="fb")
+            include ../svg/facebook.pug 
         li.footer_social-item
           a(href="#").footer_social-item-link
-            img(src="#", alt="yu")
+            include ../svg/youtube.pug 
         li.footer_social-item
           a(href="#").footer_social-item-link
-            img(src="#", alt="insta")
+            include ../svg/instagram.pug 
   .footer_copyright
     a(href="#") Solar. Development by AS - All right reserves

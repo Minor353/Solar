@@ -5,19 +5,19 @@
     ul.page-contact_list
       li.page-contact_list-item
         .page-contact_item-img
-          img(src="#", alt="icon")
+          include ../svg/call.pug 
         .page-contact_item-wrap
           .page-contact_item-title Позвоните нам
-          a(href="tel:+") +380 (50) 123 45 67
+          a(href="tel:+").page-contact_item-text +380 (50) 123 45 67
       li.page-contact_list-item
         .page-contact_item-img
-          img(src="#", alt="icon")
+          include ../svg/email.pug 
         .page-contact_item-wrap
           .page-contact_item-title Напишите нам
-          a(href="mailto:") example@mail.com
+          a(href="mailto:").page-contact_item-text example@mail.com
       li.page-contact_list-item
         .page-contact_item-img
-          img(src="#", alt="icon")
+          include ../svg/pin.pug 
         .page-contact_item-wrap
           .page-contact_item-title Приходите к нам
-          div г. Днепр ул. Карла Маркса 1
+          div.page-contact_item-text г. Днепр ул. Карла Маркса 1

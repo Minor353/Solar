@@ -1,0 +1,38 @@
+.call-btn {
+  text-decoration: none;
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #A3C9F5;
+  padding: 13px 45px;
+  border: 1px solid #A3C9F5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+}
+
+.call-btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 132px;
+  height: 1px;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2D3739;
+}
+
+.call-btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 132px;
+  height: 1px;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2D3739;
+}

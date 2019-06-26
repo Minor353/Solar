@@ -1,0 +1,34 @@
+.nav {
+  margin-right: auto;
+}
+
+.nav_list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav_list-item {
+  list-style-type: none;
+}
+
+.nav_item-link {
+  text-decoration: none;
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 17px;
+  color: #F2F2F2;
+  padding: 0 23px;
+}
+
+.nav_list-item:first-child {
+  .nav_item-link {
+    padding-left: 0;
+  }
+}
+
+.nav_list-item:last-child {
+  .nav_item-link {
+    padding-right: 0;
+  }
+}

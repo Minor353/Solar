@@ -1,0 +1,109 @@
+.ww {
+  background-color: #FAFAFA;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.ww_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.ww_list {
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ww_list-item {
+  list-style-type: none;
+  margin-bottom: 20px;
+  max-width: 270px;
+  min-width: 250px;
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.ww_item-num {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100%;
+  color: #0271B9;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url('../images/icons/Intersect.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ww_item-img {
+  width: 80px;
+  height: 80px;
+  background-color: #EEECE8;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 28px;
+
+  svg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin: auto;
+  }
+}
+
+.ww_item-title {
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #2E2E2E;
+  margin-bottom: 18px;
+}
+
+.ww_item-description {
+  position: absolute;
+  opacity: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ww_item-link {
+  display: block;
+  margin: 0 auto;
+  margin-top: auto;
+  text-decoration: none;
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0271B9;
+}

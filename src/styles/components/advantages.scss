@@ -1,0 +1,83 @@
+.advantages {
+  padding: 120px 0;
+  background: #FAFAFA;
+}
+
+.advantages_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.advantages_content {
+  flex: 1;
+}
+
+.advantages_content-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.advantages_content-subtitle {
+  text-align: left;
+  max-width: 270px;
+  margin-bottom: 20px;
+}
+
+.advantages_content-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #333333;
+}
+
+.advantages_list {
+  flex: 2;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages_list-item {
+  list-style-type: none;
+  width: 49%;
+  display: flex;
+  margin-top: 25px;
+}
+
+.advantages_item-img {
+  width: 60px;
+  height: 60px;
+  background: #FBFBFB;
+  box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.advantages_item-wrap {
+  flex: 1;
+}
+
+.advantages_item-title {
+  font-family: 'GothamPro-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2E2E2E;
+  margin-bottom: 10px;
+}
+
+.advantages_item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145%;
+  color: #828282;
+}
