@@ -7,7 +7,7 @@ html(lang="ru")
     title Solar || Контакты
     link(rel="stylesheet", href="assets/styles/app.min.css")
   body
-    .wrapper
+    .wrapper.other-page
       include ../includes/header.pug 
       section.contact-page
         .contact-page_wrap
@@ -18,33 +18,37 @@ html(lang="ru")
             ul.contact-page_contact
               li.contact-page_contact-item
                 .contact-page_item-img
-                  img(src="#", alt="contact")
+                  include ../svg/call.pug 
                 .contact-page_item-content
                   div Позвоните нам
-                  a(href="tel:+") +380 (50) 123 45 67
+                  a(href="tel:+").contact-page_item-content-link +380 (50) 123 45 67
               li.contact-page_contact-item
                 .contact-page_item-img
-                  img(src="#", alt="contact")
+                   include ../svg/email.pug 
                 .contact-page_item-content
                   div Напишите нам
-                  a(href="mailto:") example@mail.com
+                  a(href="mailto:").contact-page_item-content-link example@mail.com
               li.contact-page_contact-item
                 .contact-page_item-img
-                  img(src="#", alt="contact")
+                  include ../svg/pin.pug 
                 .contact-page_item-content
-                  div г. Днепр ул. Карла Маркса 1 
+                  div.contact-page_item-content-link
+                    | г. Днепр
+                    br
+                    | ул. Карла Маркса 1 
           .contact-page_img
-            img(src="#", alt="contact")
+            img(src="assets/images/content/mariana-proenca-big-unsplash.png", alt="contact")
       section.contact-form
         .contact-form_wrap
           .contact-form_map
             #map
+              img(src="assets/images/content/map.png", alt="map")
           .contact-form_form
             form(action="#", method="post")
               h4.contact-form_form-title Напишите нам
               h5.contact-form_form-subtitle Форма
-              input(type="text")
-              input(type="text")
-              textarea(name="#")
-              button(type="submit") Отправить
+              input(type="text" placeholder="Имя").contact-form_form-input
+              input(type="text" placeholder="Email").contact-form_form-input
+              textarea(name="#" placeholder="Комментарий").contact-form_form-textarea
+              button(type="submit").contact-form_form-btn Отправить
       include ../includes/footer.pug 

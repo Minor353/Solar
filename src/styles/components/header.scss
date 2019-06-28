@@ -1,3 +1,25 @@
+/************************/
+
+.other-page {
+  .header {
+    background: #2E2E2E;
+  }
+
+  .header_wrap {
+    padding: 10px 15px;
+  }
+
+  .header_header {
+    display: none;
+  }
+
+  .header_footer {
+    padding: 0;
+  }
+}
+
+
+/************************/
 .header_wrap {
   max-width: 1200px;
   margin: 0 auto;

@@ -1,0 +1,43 @@
+.seo-text {
+  background-color: #fafafa;
+  padding-bottom: 120px;
+}
+
+.seo-text_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.seo-text_title {
+  font-family: 'GothamPro-Bold';
+  font-size: 32px;
+  line-height: 31px;
+  display: flex;
+  align-items: flex-end;
+  color: #828282;
+  margin-bottom: 20px;
+}
+
+.seo-text_content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 145%;
+  color: #333333;
+}
+
+.seo-text_btn {
+  margin-left: auto;
+  margin-top: 30px;
+  font-family: 'GothamPro-Bold';
+  font-size: 14px;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #0271B9;
+  color: #0271B9;
+}

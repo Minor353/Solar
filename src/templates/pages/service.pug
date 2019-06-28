@@ -7,7 +7,7 @@ html(lang="ru")
     title Solar || Услуги
     link(rel="stylesheet", href="assets/styles/app.min.css")
   body
-    .wrapper
+    .wrapper.other-page
       include ../includes/header.pug  
       section.service-card
         .service-card_wrap
@@ -45,7 +45,8 @@ html(lang="ru")
                 a(href="service-page.html").service-card_item-link подробнее
             .service-card_call
               .service-card_call-baner
-              .service-card_call-btn связаться
+                img(src="assets/images/content/img.png", alt="img")
+              a(href="#").service-card_call-btn связаться
       section.seo-text
         .seo-text_wrap
           .seo-text_title Заголовок SEO-текста

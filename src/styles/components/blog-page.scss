@@ -1,0 +1,95 @@
+.blog-page {
+  padding-top: 120px;
+  background-color: #fafafa;
+  padding-bottom: 120px;
+}
+
+.blog-page_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.blog-page_content {
+  display: flex;
+}
+
+.blog-page_date,
+.blog-page_name {
+  text-align: left;
+}
+
+.blog-page_name {
+  margin-bottom: 70px;
+}
+
+.blog-page_foto {
+  width: 100%;
+  max-height: 400px;
+  margin-bottom: 60px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.blog-page_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145%;
+  color: #000000;
+}
+
+.blog-page_form {
+  max-width: 540px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.blog-page_form-subtitle {
+  margin-bottom: 30px;
+}
+
+.blog-page_form-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 30px;
+  background: #FAFAFA;
+  border: 1px solid #A3C9F5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.blog-page_form-texarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 30px;
+  background: #FAFAFA;
+  border: 1px solid #A3C9F5;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 20px;
+  min-height: 94px;
+}
+
+.blog-page_form-btn {
+  font-family: 'GothamPro-Bold';
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 18px;
+  color: #FFFFFF;
+  background: #0271C2;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 100%;
+}

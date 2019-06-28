@@ -1,0 +1,83 @@
+.catalog-page-list {
+  padding-top: 120px;
+  background-color: #fafafa;
+}
+
+.catalog-page-list_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.catalog-page-list_title,
+.catalog-page-list_subtitle {
+  text-align: left;
+}
+
+.catalog-page-list_subtitle {
+  margin-bottom: 60px;
+}
+
+.catalog-page-list_list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-page-list_list-item {
+  padding: 30px 78px;
+  list-style-type: none;
+  position: relative;
+  background: #FFFFFF;
+  /* Drop Shadow */
+
+  box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
+  border-radius: 5px;
+}
+
+.catalog-page-list_item-link {
+  text-decoration: none;
+}
+
+.catalog-page-list_item-num {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/icons/Intersect.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100%;
+
+  color: #0271C2;
+}
+
+.catalog-page-list_item-title {
+  font-family: 'GothamPro-Bold';
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #2E2E2E;
+  margin-top: 30px;
+}
+
+.catalog-page-list_item-img {
+  width: 224px;
+  height: 120px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

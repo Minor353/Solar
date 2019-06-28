@@ -1,0 +1,84 @@
+.contact-page {
+  padding-top: 120px;
+  background-color: #fafafa;
+}
+
+.contact-page_wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+}
+
+.contact-page_content {
+  flex: 1;
+}
+
+.contact-page_content-title,
+.contact-page_content-subtitle {
+  text-align: left;
+}
+
+.contact-page_content-subtitle {
+  margin-bottom: 30px;
+}
+
+.contact-page_content-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 60px;
+}
+
+.contact-page_img {
+  width: 570px;
+  height: 523px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 30px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.contact-page_contact {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-page_contact-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contact-page_item-img {
+  margin-right: 10px;
+}
+
+.contact-page_item-content {
+  div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+    margin-bottom: 5px;
+  }
+
+  .contact-page_item-content-link {
+    text-decoration: none;
+    font-family: 'GothamPro-Bold';
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #0271B9;
+  }
+}

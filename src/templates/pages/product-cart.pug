@@ -7,38 +7,37 @@ html(lang="ru")
     title Solar || Продукт
     link(rel="stylesheet", href="assets/styles/app.min.css")
   body 
-    .wrapper
+    .wrapper.other-page
       include ../includes/header.pug  
       section.product
         .product_wrap
-          a(href="#").product_link-prev Назад в каталог
+          a(href="catalog.html").product_link-prev Назад в каталог
           .product_card
             .product_card-list
               .product_card-list-img
-                img(src="#", alt="product")
+                img(src="assets/images/content/mariana-proenca-big-unsplash.png", alt="product")
               .product_card-list-content
-                .product_content-price 2 658 грн
-                .product_content-title Название товара
+                .product_content-price Название товара
                 .product_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
                 .product_card-btn
-                  a(href="#") Оставить заявку
-                  p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+                  a(href="#").product_card-btn-link Оставить заявку
+                  p.product_card-btn-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
             ul.product_card-info
               li.product_info-item
                 div Производитель
-                div
+                div.product_info-item-decor
                 div Master Wood
               li.product_info-item
                 div Страна производитель
-                div
+                div.product_info-item-decor
                 div Украина
               li.product_info-item
                 div Материал
-                div
+                div.product_info-item-decor
                 div Отсутствует
               li.product_info-item
                 div Размер
-                div
+                div.product_info-item-decor
                 div 2х0,77х0,42 м
       section.seo-text
         .seo-text_wrap

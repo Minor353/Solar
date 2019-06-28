@@ -7,7 +7,7 @@ html(lang="ru")
     title Solar || Страница услуги
     link(rel="stylesheet", href="assets/styles/app.min.css")
   body
-    .wrapper
+    .wrapper.service-page-main--style
       .main-bg
         include ../includes/header.pug 
         section.service-page-main
@@ -16,10 +16,10 @@ html(lang="ru")
               .service-page-main_content-title Строительство гелиосистем
               .service-page-main_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века
               form(action="#", method="post").service-page-main_content-form
-                input(type="text").service-page-main_form-input
-                button(type="submit") оставить заявку
+                input(type="text" placeholder="+380 (__) ___ __ __").service-page-main_form-input
+                button(type="submit").btn-submit оставить заявку
             .service-page-main_img
-              img(src="#", alt="service")
+              img(src="assets/images/content/service-bg.png", alt="service")
       section.advantages
         .advantages_wrap
           .advantages_content
@@ -53,10 +53,19 @@ html(lang="ru")
                       .advantages_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне           
       section.article
         .article_wrap
-          .article_img
-            img(src="#", alt="article")
+          .last-articles_list-item
+            a(href="#")
+              .last-articles_item-decor
+              .last-articles_item-img
+                  img(src="assets/images/content/american-public-power-association-big-unsplash.jpg", alt="articles")
+              .last-articles_item-content
+                  .last-articles_content-date 31 декабря 2019
+                  .last-articles_content-title Название статьи
           .article_content
-            .article_content-title Энергия солнца для обогащения мира
+            .article_content-title 
+              | Энергия солнца 
+              br
+              | для обогащения мира
             .article_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах...
             a(href="#").article_content-link больше
       section.service-catalog
