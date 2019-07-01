@@ -55,6 +55,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 5;
 }
 
 .ww_item-img {
@@ -86,6 +87,11 @@
 
 .ww_item-description {
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0271B9;
   opacity: 0;
   font-style: normal;
   font-weight: normal;
@@ -93,6 +99,8 @@
   line-height: 145%;
   text-align: center;
   color: #FFFFFF;
+  padding: 80px 30px;
+  transition: 0.3s;
 }
 
 .ww_item-link {
@@ -106,4 +114,17 @@
   text-align: center;
   text-transform: uppercase;
   color: #0271B9;
+  position: relative;
+  z-index: 5;
+}
+
+
+.ww_list-item:hover {
+  .ww_item-description {
+    opacity: 1;
+  }
+
+  .ww_item-link {
+    color: #fff;
+  }
 }

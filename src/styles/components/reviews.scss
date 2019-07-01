@@ -22,15 +22,17 @@
   margin: 0;
   display: flex;
   margin-top: 60px;
+  position: relative;
 }
 
 .reviews_list-item {
   list-style-type: none;
   background: #FFFFFF;
-  box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
+  box-shadow: 0px 7px 10px rgba(73, 92, 61, 0.15);
   border-radius: 5px;
   padding: 30px 20px;
-  margin: 0 15px;
+  margin: 15px;
+  outline: none;
 }
 
 .reviews_item-data {
@@ -83,16 +85,27 @@
 .reviews_pagination {
   padding: 0;
   margin: 0;
-  margin-top: 60px;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
-}
 
-.reviews_pagination-item {
-  list-style-type: none;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #BFC7C5;
-  margin: 0 15px;
+  li {
+    list-style-type: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #BFC7C5;
+    margin: 0 15px;
+
+    button {
+      display: none;
+    }
+  }
+
+  .slick-active {
+    background-color: #A3C9F5;
+  }
 }

@@ -1,0 +1,46 @@
+aside.aside
+  .aside_wrap
+    .aside_wrap-filter
+    .aside_content
+      .logo.logo--aside
+        include ../svg/logo.pug 
+      .aside_cross
+      .aside_text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+      ul.header_header-contact.header_header-contact--aside
+        li.header_contact-item
+          .header_contact-img
+            include ../svg/call.pug 
+          .header_contact-wrap
+            .header_contact-title Позвоните нам
+            a(href="tel:+").header_contact-text +380 (50) 123 45 67
+        li.header_contact-item
+          .header_contact-img
+            include ../svg/email.pug 
+          .header_contact-wrap
+            .header_contact-title Напишите нам
+            a(href="mailto:").header_contact-text example@mail.com
+        li.header_contact-item
+          .header_contact-img
+            include ../svg/pin.pug 
+          .header_contact-wrap
+            .header_contact-text
+              | г. Днепр 
+              br
+              |  ул. Карла Маркса 1 
+      .footer_msg.footer_msg--aside
+        .footer_msg-title Напишите нам в мессенджере
+        a(href="#").footer_msg-link
+          include ../svg/telegram.pug 
+        a(href="#").footer_msg-link
+          include ../svg/viber.pug 
+      ul.footer_social
+        li.footer_social-title Социальные сети
+        li.footer_social-item
+          a(href="#").footer_social-item-link 
+            include ../svg/facebook.pug 
+        li.footer_social-item
+          a(href="#").footer_social-item-link
+            include ../svg/youtube.pug 
+        li.footer_social-item
+          a(href="#").footer_social-item-link
+            include ../svg/instagram.pug 

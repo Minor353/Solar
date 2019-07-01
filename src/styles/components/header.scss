@@ -44,6 +44,16 @@
   display: flex;
 }
 
+.header_header-contact--aside {
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 40px;
+
+  .header_contact-item {
+    margin-bottom: 50px;
+  }
+}
+
 
 .header_contact-item {
   display: flex;
