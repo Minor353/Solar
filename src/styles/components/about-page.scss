@@ -59,6 +59,13 @@
   box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
   overflow: hidden;
   margin-right: 20px;
+  display: flex;
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+  }
 }
 
 .about-page_link {

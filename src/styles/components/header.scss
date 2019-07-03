@@ -52,6 +52,10 @@
   .header_contact-item {
     margin-bottom: 50px;
   }
+
+  .header_contact-text:hover {
+    color: #fff;
+  }
 }
 
 
@@ -104,6 +108,7 @@
   font-size: 14px;
   line-height: 13px;
   color: #A3C9F5;
+  transition: 0.3s;
 }
 
 .header_header-social {

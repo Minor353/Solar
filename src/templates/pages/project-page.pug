@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Solar || Проект
+    link(rel='stylesheet', type='text/css', href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
+    link(rel="stylesheet", href="assets/styles/app.min.css")
+  body
+    .wrapper.other-page
+      include ../includes/_aside-info.pug
+      include ../includes/header.pug 
+      section.project-page
+        .project-page_wrap
+          h4.project-page_title 31 декабря 2018
+          h5.project-page_subtitle Название проекта
+      section.project-page_slider
+        .project-page_slider-wrap
+          ul.project-page_slider-list
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_01-min.jpg", alt="slide")
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_02-min.jpg", alt="slide")
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_03-min.jpg", alt="slide")
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_04-min.jpg", alt="slide")
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_05-min.jpg", alt="slide")
+            li.project-page_slider-item
+              img(src="assets/images/content/project_slider_01-min.jpg", alt="slide")  
+          ul.project-page_slider-nav
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_01-min.jpg", alt="slide")
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_02-min.jpg", alt="slide")
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_03-min.jpg", alt="slide")
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_04-min.jpg", alt="slide")
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_05-min.jpg", alt="slide")
+            li.project-page_nav-item
+              img(src="assets/images/content/project_slider_01-min.jpg", alt="slide")
+      section.project-page_text
+        .project-page_text-wrap
+          p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+      section.page-description
+        .page-description_wrap
+          .page-description_text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+      section.service-catalog.service-catalog--project
+        h4.service-catalog_title наша продукция
+        h5.service-catalog_subtitle Какое оборудование используется
+        include ../includes/_catalog-list.pug 
+      include ../includes/_consultation.pug  
+      include ../includes/footer.pug 

@@ -73,4 +73,36 @@ module.exports = function () {
       // instead of a settings object
     ]
   });
+
+  /************************************************** */
+
+  $('.project-page_slider-list').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.project-page_slider-nav'
+  });
+  $('.project-page_slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.project-page_slider-list',
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    focusOnSelect: true
+  });
+
+  /**************************************************************** */
+
+  $('.main-slider_list').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    vertical: true,
+    dots: true,
+    dotsClass: 'main-slider_pagination',
+    autoplay: true,
+    autoplaySpeed: 8000,
+  });
 }

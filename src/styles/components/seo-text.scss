@@ -27,6 +27,13 @@
   font-size: 20px;
   line-height: 145%;
   color: #333333;
+  max-height: 150px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.seo-text_content--active {
+  max-height: 1200px;
 }
 
 .seo-text_btn {
@@ -40,4 +47,5 @@
   padding-bottom: 5px;
   border-bottom: 1px solid #0271B9;
   color: #0271B9;
+  cursor: pointer;
 }

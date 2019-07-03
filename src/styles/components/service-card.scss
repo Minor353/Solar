@@ -120,6 +120,13 @@
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 30px;
+  display: flex;
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
 }
 
 .service-card_item-title {

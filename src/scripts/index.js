@@ -3,3 +3,6 @@ aside();
 
 const sliders = require('./component/sliders.js');
 sliders();
+
+const seoBlock = require('./component/seoBlock.js');
+seoBlock();
