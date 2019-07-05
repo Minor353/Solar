@@ -9,18 +9,37 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+
+  @include tablet() {
+    flex-direction: column;
+  }
 }
 
 .footer_row-first {
-  width: 470px
+  width: 470px;
+
+  @include tablet() {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 .footer_row-second {
-  width: 170px
+  width: 170px;
+
+  @include tablet() {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
 }
 
 .footer_row-third {
   width: 270px;
+
+  @include tablet() {
+    width: 100%;
+  }
 }
 
 .footer_logo {

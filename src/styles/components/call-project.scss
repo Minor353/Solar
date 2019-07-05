@@ -10,6 +10,10 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+
+  @include tablet() {
+    flex-direction: column;
+  }
 }
 
 .call-project_title {
@@ -18,6 +22,10 @@
   line-height: 23px;
   color: #FFFFFF;
   margin-right: auto;
+
+  @include tablet() {
+    margin-bottom: 10px;
+  }
 }
 
 .call-project_btn {

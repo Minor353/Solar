@@ -2,6 +2,10 @@
   background: #fafafa;
   padding-top: 120px;
   padding-bottom: 60px;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 
@@ -39,6 +43,10 @@
 
 .product_card-list {
   display: flex;
+
+  @include tablet() {
+    flex-direction: column;
+  }
 }
 
 .product_card-list-img {
@@ -46,6 +54,12 @@
   height: 565px;
   flex: 1;
   margin-right: 30px;
+
+  @include tablet() {
+    margin-right: 0;
+    margin-bottom: 50px;
+    height: 400px;
+  }
 
   img {
     width: 100%;

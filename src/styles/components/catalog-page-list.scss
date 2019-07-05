@@ -1,6 +1,10 @@
 .catalog-page-list {
   padding-top: 120px;
   background-color: #fafafa;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 .catalog-page-list_wrap {
@@ -24,6 +28,11 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+
+  @include maxtablet() {
+    overflow-x: scroll;
+    padding: 30px 0;
+  }
 }
 
 .catalog-page-list_list-item {
@@ -36,6 +45,10 @@
   box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
   border-radius: 5px;
   transition: 0.3s;
+
+  @include maxtablet() {
+    margin-right: 30px;
+  }
 
   &:hover {
     background-color: #0271B9;

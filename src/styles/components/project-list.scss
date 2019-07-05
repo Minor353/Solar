@@ -18,12 +18,21 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+
+  @include maxtablet() {
+    flex-direction: column;
+  }
 }
 
 .project-list_list-item {
   list-style-type: none;
   max-width: 570px;
   position: relative;
+
+  @include maxtablet() {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 .project-list_list-item-content {
@@ -56,11 +65,19 @@
   position: relative;
   border-radius: 5px;
 
+  @include maxtablet() {
+    width: 100%;
+  }
+
 
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+
+    @include maxtablet() {
+      object-fit: cover;
+    }
   }
 }
 

@@ -17,7 +17,7 @@ module.exports = function () {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 770,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
@@ -55,7 +55,7 @@ module.exports = function () {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 770,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2

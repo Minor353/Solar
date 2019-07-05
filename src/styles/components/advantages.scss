@@ -16,6 +16,10 @@
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
+
+  @include tablet() {
+    flex-direction: column;
+  }
 }
 
 .advantages_wrap-content {
@@ -54,6 +58,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @include tablet() {
+    margin-left: 0;
+  }
 }
 
 .advantages_list-item {
@@ -105,11 +113,20 @@
   .advantages_wrap-content {
     width: 770px;
     align-items: flex-start;
+
+    @include tablet() {
+      width: 100%;
+      flex-direction: column;
+    }
   }
 
   .advantages_list {
     flex-direction: column;
     flex: 1;
+
+    @include tablet() {
+      margin-top: 30px;
+    }
   }
 
   .advantages_list-item {

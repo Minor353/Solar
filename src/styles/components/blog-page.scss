@@ -2,6 +2,10 @@
   padding-top: 120px;
   background-color: #fafafa;
   padding-bottom: 120px;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 .blog-page_wrap {

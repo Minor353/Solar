@@ -1,6 +1,10 @@
 .contact-page {
   padding-top: 120px;
   background-color: #fafafa;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 .contact-page_wrap {
@@ -9,6 +13,10 @@
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
+
+  @include tablet() {
+    flex-direction: column-reverse;
+  }
 }
 
 .contact-page_content {
@@ -39,6 +47,12 @@
   border-radius: 5px;
   overflow: hidden;
   margin-left: 30px;
+
+  @include tablet() {
+    margin-left: 0;
+    height: 200px;
+    margin-bottom: 30px;
+  }
 
   img {
     width: 100%;

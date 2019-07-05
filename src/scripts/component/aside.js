@@ -5,7 +5,7 @@ module.exports = function () {
 
   if (aside) {
     burgerAside.addEventListener('click', function () {
-      aside.classList.add('aside--active');
+      aside.classList.toggle('aside--active');
       burgerAside.classList.remove('active');
     });
     asideCross.addEventListener('click', function () {

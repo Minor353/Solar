@@ -2,6 +2,10 @@
   background-color: #fafafa;
   padding-top: 120px;
   padding-bottom: 35px;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 .other-page {
@@ -25,16 +29,29 @@
   background: #FBFBFB;
   box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
   border-radius: 5px;
+
+  @include tablet() {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .page-contact_list-item {
   list-style-type: none;
   display: flex;
   align-items: center;
+
+  @include tablet() {
+    min-width: 240px;
+  }
 }
 
 .page-contact_list-item:nth-child(2) {
   margin: 0 170px;
+
+  @include tablet() {
+    margin: 30px 0;
+  }
 }
 
 .page-contact_item-img {

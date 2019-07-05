@@ -5,6 +5,10 @@
   margin: 0 auto;
   display: flex;
   margin-top: 35px;
+
+  @include tablet() {
+    flex-direction: column-reverse;
+  }
 }
 
 .service-page-main_content-title {
@@ -14,6 +18,15 @@
   margin-bottom: 80px;
   margin-top: 60px;
   color: #FFFFFF;
+
+  @include maxtablet() {
+    color: #333333;
+  }
+
+  @include tablet() {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 
 .service-page-main_content-text {
@@ -37,10 +50,23 @@
   border-radius: 15px;
   overflow: hidden;
 
+  @include tablet() {
+    margin: 0;
+    width: 100%;
+    height: 250px;
+  }
+
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+.service-page-main_content-form {
+  @include maxtablet() {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -51,4 +77,10 @@
   box-sizing: border-box;
   border-radius: 5px;
   margin-right: 30px;
+
+  @include maxtablet() {
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
 }

@@ -11,8 +11,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include tablet() {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .partners_list-item {
   list-style-type: none;
+
 }

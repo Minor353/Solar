@@ -10,12 +10,18 @@ $black: #000;
 
 $dark-grey: #373e42;
 
+$maxtablet: 1200px;
 
-
-$tablet: 768px;
+$tablet: 770px;
 
 $phone: 480px;
 
+
+@mixin maxtablet {
+    @media screen and (max-width:$maxtablet) {
+        @content;
+    }
+}
 
 @mixin tablet {
     @media screen and (max-width:$tablet) {
@@ -28,3 +34,9 @@ $phone: 480px;
         @content;
     }
 }
+
+/*
+@include tablet() {
+
+  }
+*/
