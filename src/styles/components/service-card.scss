@@ -88,6 +88,7 @@
   margin-bottom: 30px;
   padding: 30px;
   box-sizing: border-box;
+  transition: 0.3s;
 
   @include maxtablet() {
     width: 100%;
@@ -155,6 +156,7 @@
   min-height: 50px;
   margin: 0 auto;
   margin-bottom: 40px;
+  transition: 0.3s;
 }
 
 .service-card_item-link {
@@ -166,4 +168,18 @@
   text-transform: uppercase;
   color: #0271C2;
   display: block;
+  transition: 0.3s;
+}
+
+
+.service-card_list-item:hover {
+  background-color: #50b2f9;
+
+  .service-card_item-link {
+    color: #fff;
+  }
+
+  .service-card_item-title {
+    color: #fff;
+  }
 }

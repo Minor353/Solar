@@ -77,6 +77,11 @@
   line-height: 17px;
   color: #F2F2F2;
   padding: 0 18px;
+  transition: 0.3s;
+
+  &:hover {
+    color: #A3C9F5;
+  }
 }
 
 .nav_list-item:nth-child(2) {

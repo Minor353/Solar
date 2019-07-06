@@ -43,4 +43,10 @@
   background: #FFFFFF;
   border-radius: 5px;
   padding: 15px 35px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+
+  &:hover {
+    border-color: #0271B9;
+  }
 }

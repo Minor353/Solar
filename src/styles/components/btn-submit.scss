@@ -9,7 +9,15 @@
   background: #0271B9;
   box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
   border-radius: 5px;
-  border: none;
+  border: 1px solid transparent;
   padding: 17px 45px;
   text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #fff;
+    color: #0271B9;
+    border-color: #0271B9;
+    cursor: pointer;
+  }
 }

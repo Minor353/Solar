@@ -11,7 +11,12 @@
   box-sizing: border-box;
   border-radius: 5px;
   position: relative;
+  transition: 0.3s;
 
+  &:hover {
+    color: #077aff;
+    border-color: #077aff;
+  }
 
 }
 
