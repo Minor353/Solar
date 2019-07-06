@@ -69,6 +69,10 @@
   width: 49%;
   display: flex;
   margin-top: 25px;
+
+  @include mobile() {
+    width: 100%;
+  }
 }
 
 .advantages_item-img {
@@ -131,6 +135,10 @@
 
   .advantages_list-item {
     width: 355px;
+
+    @include mobile() {
+      width: 100%;
+    }
   }
 
   .advantages_list-item:first-child {

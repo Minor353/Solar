@@ -27,6 +27,12 @@
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
+  @include mobile() {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+  }
 }
 
 .service-page-main_content-text {
@@ -36,6 +42,10 @@
   line-height: 145%;
   color: #333333;
   margin-bottom: 68px;
+
+  @include mobile() {
+    text-align: center;
+  }
 }
 
 .service-page-main_content {

@@ -38,6 +38,10 @@
     height: 250px;
     flex: none;
   }
+
+  @include mobile() {
+    min-width: auto;
+  }
 }
 
 .consultation_number {

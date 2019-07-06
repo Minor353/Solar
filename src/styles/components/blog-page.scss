@@ -26,12 +26,20 @@
 
 .blog-page_name {
   margin-bottom: 70px;
+
+  @include mobile() {
+    margin-bottom: 30px;
+  }
 }
 
 .blog-page_foto {
   width: 100%;
   max-height: 400px;
   margin-bottom: 60px;
+
+  @include mobile() {
+    margin-bottom: 30px;
+  }
 
   img {
     width: 100%;

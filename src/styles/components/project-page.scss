@@ -4,6 +4,10 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 70px;
+
+  @include tablet() {
+    padding-top: 60px;
+  }
 }
 
 .project-page_title,
@@ -32,6 +36,10 @@
   list-style-type: none;
   height: 400px;
   width: 100%;
+
+  @include mobile() {
+    height: 200px;
+  }
 
   img {
     width: 100%;

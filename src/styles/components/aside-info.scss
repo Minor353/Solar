@@ -10,6 +10,10 @@
   @include maxtablet() {
     right: 50%;
   }
+
+  @include mobile() {
+    right: 0;
+  }
 }
 
 .aside--active {
@@ -25,13 +29,17 @@
 
 .aside_wrap-filter {
   background: rgba(2, 113, 194, 0.8);
-
+  filter: blur(3px);
   position: absolute;
   top: -5px;
   bottom: -50px;
   left: -50px;
   right: -5px;
   z-index: 9;
+
+  @include mobile() {
+    background: rgba(2, 113, 194, 0.9);
+  }
 }
 
 .aside_content {

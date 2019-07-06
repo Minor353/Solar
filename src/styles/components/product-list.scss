@@ -30,6 +30,11 @@
   border-radius: 5px;
   margin-bottom: 85px;
 
+  @include mobile() {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
   a {
     text-decoration: none;
   }
