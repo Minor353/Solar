@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="assets/styles/app.min.css"/>
   </head>
   <body>
+    <div class="popup-success">
+      <div class="popup-success_img"><img src="assets/images/content/popup-ok.png" alt="success"/></div>
+    </div>
+    <div class="popup">
+      <div class="popup_wrap">
+        <div class="popup_content">
+          <div class="popup-cross"></div>
+          <div class="popup_content-img"><img src="assets/images/content/popup-img.png" alt="popup"/></div>
+          <div class="popup_content-form">
+            <div class="popup_form-title">Оставьте заявку и мы с Вами свяжемся</div>
+            <form class="popup_form" action="mail.php" method="post" id="form">
+              <input type="text" placeholder="Ваше имя" required="required"/>
+              <input type="text" placeholder="Ваша электронная почта"/>
+              <input type="text" placeholder="Ваш номер телефона" required="required"/>
+              <button class="popup_form-btn" type="submit">отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="wrapper">
       <aside class="aside">
         <div class="aside_wrap">

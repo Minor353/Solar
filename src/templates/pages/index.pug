@@ -8,6 +8,22 @@ html(lang="ru")
         link(rel='stylesheet', type='text/css', href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
         link(rel="stylesheet", href="assets/styles/app.min.css")
     body
+        .popup-success
+            .popup-success_img
+                img(src="assets/images/content/popup-ok.png", alt="success")
+        .popup
+            .popup_wrap
+                .popup_content
+                    .popup-cross
+                    .popup_content-img
+                        img(src="assets/images/content/popup-img.png", alt="popup")
+                    .popup_content-form
+                        .popup_form-title Оставьте заявку и мы с Вами свяжемся
+                        form(action="mail.php", method="post")#form.popup_form
+                            input(type="text" placeholder="Ваше имя" required)
+                            input(type="text" placeholder="Ваша электронная почта")
+                            input(type="text" placeholder="Ваш номер телефона" required)
+                            button(type="submit").popup_form-btn отправить
         .wrapper
             include ../includes/_aside-info.pug
             .main-bg

@@ -99,8 +99,9 @@
   line-height: 145%;
   text-align: center;
   color: #FFFFFF;
-  padding: 80px 30px;
+  padding: 20px 30px;
   transition: 0.3s;
+  z-index: 9;
 }
 
 .ww_item-link {
@@ -115,7 +116,7 @@
   text-transform: uppercase;
   color: #0271B9;
   position: relative;
-  z-index: 5;
+  z-index: 10;
 }
 
 

@@ -16,16 +16,21 @@
   font-size: 70px;
   line-height: 67px;
   margin-bottom: 80px;
-  margin-top: 60px;
+  margin-top: 0px;
+  min-height: 200px;
   color: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
 
   @include maxtablet() {
     color: #333333;
+    min-height: auto;
   }
 
   @include tablet() {
     margin-bottom: 30px;
     margin-top: 30px;
+
   }
 
   @include mobile() {

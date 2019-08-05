@@ -3,13 +3,13 @@ module.exports = function () {
   const aside = document.querySelector('.aside');
   const asideCross = document.querySelector('.aside_cross');
 
-  if (aside) {
-    burgerAside.addEventListener('click', function () {
-      aside.classList.toggle('aside--active');
-      burgerAside.classList.remove('active');
-    });
-    asideCross.addEventListener('click', function () {
-      aside.classList.remove('aside--active');
-    })
-  }
-}
+  burgerAside.addEventListener('click', function () {
+    aside.classList.toggle('aside--active');
+    burgerAside.classList.remove('active');
+  });
+
+  asideCross.addEventListener('click', function () {
+    aside.classList.remove('aside--active');
+  });
+
+};

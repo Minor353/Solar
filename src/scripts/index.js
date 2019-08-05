@@ -6,3 +6,6 @@ sliders();
 
 const seoBlock = require('./component/seoBlock.js');
 seoBlock();
+
+const formPopup = require('./component/formPopup.js');
+formPopup();
