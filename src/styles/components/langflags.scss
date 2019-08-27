@@ -1,0 +1,14 @@
+.langflags {
+  display: flex;
+  padding: 0;
+}
+
+.lang-item {
+  list-style-type: none;
+  margin-right: 15px;
+
+  img {
+    width: 25px;
+    height: 20px;
+  }
+}

@@ -56,8 +56,8 @@
 .header_header-contact {
   padding: 0;
   margin: 0;
-  margin-left: auto;
-  margin-right: 65px;
+  margin-left: 35px;
+  margin-right: 20px;
   display: flex;
 
   @include maxtablet() {
@@ -97,11 +97,12 @@
 }
 
 .header_contact-item:first-child {
-  margin-right: 40px;
+  margin-right: 20px;
+  width: 220px;
 }
 
 .header_contact-item:nth-child(2) {
-  margin-right: 60px;
+  margin-right: 20px;
 }
 
 .header_contact-item:nth-child(3) {

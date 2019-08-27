@@ -28,6 +28,7 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   @include maxtablet() {
     overflow-x: scroll;
@@ -42,6 +43,7 @@
   list-style-type: none;
   position: relative;
   background-color: #FFFFFF;
+  margin-bottom: 30px;
   /* Drop Shadow */
 
   box-shadow: 0px 7px 25px rgba(73, 92, 61, 0.15);
