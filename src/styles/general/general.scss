@@ -35,3 +35,20 @@ h5 {
     object-fit: contain;
   }
 }
+
+.langflags {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @include maxtablet() {
+    top: 15px;
+    right: 85px;
+    z-index: 999;
+  }
+
+  @include tablet() {
+    top: 60px;
+    right: 10px;
+  }
+}

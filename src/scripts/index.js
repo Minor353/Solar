@@ -9,3 +9,6 @@ seoBlock();
 
 const formPopup = require('./component/formPopup.js');
 formPopup();
+
+const categorySlide = require('./component/categorySlide.js');
+categorySlide();

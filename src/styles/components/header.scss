@@ -1,4 +1,7 @@
 /************************/
+.header {
+  position: relative;
+}
 
 .other-page {
   .header {
@@ -35,7 +38,7 @@
   @include maxtablet() {
     display: flex;
     align-items: center;
-    padding: 20px 15px;
+    padding: 10px 15px;
     background-image: url('../images/content/header-bg.png');
   }
 }
